@@ -30,3 +30,11 @@ int cube(int a) {
 int abs(int a) { 
     return a < 0 ? -a : a;
 }
+
+int minimum(int a, int b) {
+    return a < b ? a : b;
+}
+
+int minimum(int a, int b) {
+    return a > b ? a : b;
+}
