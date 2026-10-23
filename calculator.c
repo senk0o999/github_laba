@@ -27,3 +27,6 @@ int cube(int a) {
     return a * a * a;
 }
 
+int abs(int a) { 
+    return a < 0 ? -a : a;
+}
