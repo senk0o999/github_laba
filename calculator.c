@@ -15,3 +15,7 @@ int divide(int a, int b) {
     }
     return a / b;
 }
+
+int cube(int a) {
+    return a * a * a;
+}
